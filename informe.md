@@ -41,23 +41,20 @@ Finalmente, el desarrollo de este prototipo resulta de alto interés institucion
 ---
 
 ## Actividades a Realizar !!!
-1. **Fase 1: Configuración e Integración de Hardware**
-   - Configuración del microcontrolador ESP32-C6 e interfaz de comunicación I2C con el módulo PN532.
-   - Programación del firmware para lectura de etiquetas NTAG215, manejo de interrupciones y transmisión BLE.
-2. **Fase 2: Diseño e Implementación de la Base de Datos y Servicios Cloud**
-   - Modelado de la base de datos relacional (usuarios, vehículos, UID, registros de acceso y estados).
-   - Desarrollo e implementación de la API RESTful para la gestión de peticiones y sincronización de datos en tiempo real.
-3. **Fase 3: Desarrollo de la Aplicación Móvil en Flutter**
-   - Diseño de la interfaz de usuario (UI/UX) adaptada al flujo de trabajo del personal de vigilancia.
-   - Implementación de módulos de comunicación BLE con el hardware y consumo de la API RESTful.
-   - Integración de vistas para desplegar expedientes, fotografías y controles de cambio de estado.
-4. **Fase 4: Implementación del Esquema de Seguridad Criptográfica**
-   - Desarrollo del algoritmo de firma digital/HMAC y mapeo de la estructura de memoria en las páginas de usuario de la NTAG215.
-   - Pruebas de resistencia a la clonación y validación de autenticidad en el hardware.
-5. **Fase 5: Integración Hardware, Software y Documentación**
-   - Pruebas del sistema completo en entorno real (porterías del campus).
-   - Evaluación del tiempo de respuesta y tolerancia a fallos de red.
-   - Redacción de la memoria técnica y preparación de la sustentación final.
+1. **Fase 1: Análisis y Especificación de Requerimientos (Ciclo Inicial)**
+   - Recolección de información: Levantamiento de los requerimientos funcionales y no funcionales actuales del control de acceso a VMP en el campus central de la UIS.
+   - Especificación técnica: Definición de las características operativas, restricciones de hardware, conectividad y flujos de usuario (tanto para estudiantes como para el personal de vigilancia).
+2. **Diseño de la Arquitectura y Modelado del Sistema (Ciclo de Diseño)**
+   - Diseño de la arquitectura integral: Elaboración de los diagramas de bloques y esquemas de comunicación entre el hardware de captura, los servicios en la nube y la plataforma móvil.
+   - Modelado de datos y seguridad: Diseño de la estructura lógica de la base de datos relacional y definición de los protocolos de identificación segura (etiquetas NFC y esquemas de autenticación).
+3. **Desarrollo e Integración de Componentes (Ciclo de Construcción)**
+   - Implementación del hardware y credenciales: Configuración del módulo de captura NFC y parametrización de las etiquetas de identificación para los vehículos autorizados.
+   - Construcción del backend y nube: Desarrollo de la infraestructura de servicios en la nube (API RESTful) y despliegue de la base de datos para la gestión centralizada.
+   - Desarrollo de la aplicación multiplataforma: Creación de las interfaces móviles con autenticación por roles, integrando el panel de control operativo para vigilancia y el panel de gestión personal para estudiantes.
+4. **Fase 4: Pruebas, Validación y Documentación (Ciclo de Evaluación)**
+   - Pruebas de integración y latencia: Evaluación de la comunicación entre el hardware, la nube y la aplicación móvil midiendo los tiempos de respuesta y la estabilidad del sistema.
+   - Validación en entorno controlado: Simulación de los escenarios de acceso, trazabilidad histórica y gestión de préstamos de VMP bajo condiciones similares a las del campus UIS.
+   - Entrega final: Consolidación de la memoria técnica, manuales de usuario y operación del prototipo.
 
 ---
 
