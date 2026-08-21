@@ -33,15 +33,15 @@ Para erradicar esta problemática, se plantea el desarrollo e implementación de
 Finalmente, la propuesta resulta de alto interés institucional para la Universidad Industrial de Santander, dado que se estima que entre el 2.5% y el 4.5% de la población estudiantil utiliza la bicicleta como medio de transporte habitual; no obstante, la institución no dispone de cifras exactas ni consolidadas al respecto. Con la implementación de este proyecto, la universidad podrá acceder a métricas precisas y en tiempo real sobre el flujo diario de vehículos de movilidad personal. Esta toma de conciencia basada en datos representará un activo estratégico clave para fundamentar la toma de decisiones, planificar infraestructura y promover actividades o campañas enfocadas en el bienestar institucional y el fomento de la movilidad sostenible.
 
 ## Resultado y/o productos a entregar
-1. **Prototipo de Hardware Embebido:** Dispositivo físico integrado por un SoC ESP32-C6 y módulo lector NFC PN532 configurado con comunicación BLE e I2C, ensamblado dentro de un gabinete de protección apto para portería.
-2. **Aplicación Móvil:** APK funcional desarrollada en Flutter para el personal de vigilancia, optimizada para recepción vía BLE, validación de firmas criptográficas HMAC, consultas HTTP RESTful y despliegue visual de fichas técnicas de propiedad.
-3. **Servicio Cloud y Base de Datos Relacional:** Infraestructura en la nube con endpoints API RESTful y base de datos relacional configurada para la gestión de usuarios, vehículos, etiquetas NTAG215 e historial de eventos en tiempo real.
-4. **Conjunto de Etiquetas NFC Programadas:** Juego de etiquetas NTAG215 inicializadas y firmadas criptográficamente con tokens de seguridad únicos.
-5. **Documento Final de Grado:** Informe técnico detallado que incluye la arquitectura del sistema, esquemas de circuitos, modelo entidad-relación, pruebas de seguridad, métricas de rendimiento y manuales de usuario/operación.
+1. **Módulo de Hardware de Captura NFC:** Prototipo funcional de hardware embebido configurado para la lectura de etiquetas NFC y transmisión de datos, diseñado con protección para entornos exteriores.
+2. **Aplicación Móvil Multiplataforma:** Solución móvil con autenticación basada en roles (estudiantes y personal de vigilancia) que incluye el módulo de control operativo para portería (visualización de estados, fotos de propietario/vehículo, cambios de estado y gestión de préstamos) y el panel de usuario para estudiantes (consulta de perfil, estado de sus VMP y opción de préstamo).
+3. **Plataforma de Backend y Base de Datos:** Infraestructura de servicios en la nube y repositorio de datos estructurado para la gestión centralizada de usuarios, vehículos y el almacenamiento histórico de los eventos de acceso.
+4. **Sistema de Credenciales NFC:** Conjunto de etiquetas NFC inicializadas y configuradas con protocolos de seguridad para la identificación única de los VMP autorizados.
+5. **Informe Final de Proyecto de Grado:** Documentación técnica integral que consolida el análisis de requerimientos, la arquitectura del sistema, el diseño lógico, los resultados de las pruebas de validación y los manuales de operación.
 
 ---
 
-## Actividades a Realizar
+## Actividades a Realizar !!!
 1. **Fase 1: Configuración e Integración de Hardware**
    - Configuración del microcontrolador ESP32-C6 e interfaz de comunicación I2C con el módulo PN532.
    - Programación del firmware para lectura de etiquetas NTAG215, manejo de interrupciones y transmisión BLE.
