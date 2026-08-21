@@ -11,10 +11,13 @@ Desarrollar un prototipo de plataforma IoT que integre hardware embebido, tecnol
 ---
 
 ## Objetivos Específicos:
-* **Sustentación e Integración de Hardware:** Evaluar y configurar la arquitectura de hardware embebido basada en el SoC **ESP32-C6** y el módulo lector **PN532** bajo el protocolo I2C, garantizando alta precisión de lectura NFC, bajo consumo energético y tolerancia a interrupciones en tiempo real.
-* **Desarrollo del Nodo Móvil de Control:** Construir una aplicación móvil desarrollada en **Flutter** para el personal de vigilancia que permita la recepción de datos vía Bluetooth Low Energy (BLE) y la consulta instantánea a servicios en la nube para el despliegue de fichas de verificación visual.
-* **Gestión de Datos y Trazabilidad:** Estructurar una base de datos relacional orientada a la gestión de expedientes digitales en donde vamos a utilizar el lenguaje SQL, garantizando la integridad de la información al vincular identificadores únicos de etiquetas NFC con perfiles estudiantiles, registros fotográficos y estados de movilidad (ingreso, salida, préstamo).
-* **Seguridad:** Implementar protocolos de autenticación y escritura estructurada mediante firmas digitales (HMAC) en las páginas de memoria de las etiquetas **NTAG215**, previniendo la clonación de transpondedores y asegurando la validación exclusiva de vehículos autorizados por la institución.
+* Analizar los requerimientos funcionales y no funcionales del sistema de control de acceso mediante la recolección de especificaciones técnicas para la identificación de VMP y usuarios en el campus UIS.
+
+* Diseñar y definir la arquitectura integral del sistema IoT y el modelo de base de datos, integrando el hardware embebido, la tecnología NFC y los servicios en la nube para garantizar la gestión centralizada y la trazabilidad histórica de los registros de entrada y salida de los VMP en el campus.
+
+* Desarrollar el prototipo funcional de la plataforma IoT, incluyendo el módulo de hardware embebido con lectura NFC, el backend en la nube y la interfaz móvil, para materializar el control de acceso y el almacenamiento de los registros.
+
+* Validar el funcionamiento del prototipo de la plataforma IoT mediante pruebas de integración, latencia de comunicación y seguridad, evaluando su desempeño en un entorno controlado que simule el acceso de los VMP al campus UIS.
 
 ---
 
