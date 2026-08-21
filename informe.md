@@ -59,4 +59,4 @@ Finalmente, el desarrollo de este prototipo resulta de alto interés institucion
 ---
 
 ## Palabras y/o Términos Clave
-Internet de las Cosas (IoT), NFC (Near Field Communication), ESP32-C6, PN532, NTAG215, Bluetooth Low Energy (BLE), Movilidad Sostenible, Smart Campus, Flutter, Control de Acceso, Criptografía Aplicada, HMAC.
+Arquitectura en la Nube, Autenticación por Roles, Control de Acceso, Internet de las Cosas (IoT), Movilidad Sostenible, Near Field Communication (NFC), Prototipo Funcional, Smart Campus, Trazabilidad, Vehículos de Movilidad Personal (VMP).
