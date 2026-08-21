@@ -1,12 +1,12 @@
 # Formulario de Registro de Proyecto de Grado - UIS
 
 ## Título del Proyecto
-**Desarrollo de un Prototipo IoT de Control de Acceso con Tecnología NFC y Arquitectura en la Nube para Vehículos de Movilidad Personal.**
+**Desarrollo de un Prototipo de plataforma IoT para el Control de Acceso de Vehiculos de Movilidad personal en el campo UIS de Bucaramanga utiilizando Tecnología NFC y Arquitectura en la Nube**
 
 ---
 
 ## Objetivo General:
-Diseñar e implementar un sistema IoT distribuido de control de acceso y trazabilidad en tiempo real para Vehículos de Movilidad Personal (VMP) en la Universidad Industrial de Santander, integrando hardware embebido, tecnología NFC con validación criptográfica y una plataforma móvil conectada a la nube para mitigar los riesgos de suplantación y hurto en el campus.
+Desarrollar un prototipo de plataforma IoT que integre hardware embebido, tecnología NFC, plataforma móvil y servicio en la nube para control de acceso y trazabilidad en tiempo real para Vehículos de Movilidad Personal (VMP) en el campus central UIS.
 
 ---
 
@@ -14,12 +14,14 @@ Diseñar e implementar un sistema IoT distribuido de control de acceso y trazabi
 * **Sustentación e Integración de Hardware:** Evaluar y configurar la arquitectura de hardware embebido basada en el SoC **ESP32-C6** y el módulo lector **PN532** bajo el protocolo I2C, garantizando alta precisión de lectura NFC, bajo consumo energético y tolerancia a interrupciones en tiempo real.
 * **Desarrollo del Nodo Móvil de Control:** Construir una aplicación móvil desarrollada en **Flutter** para el personal de vigilancia que permita la recepción de datos vía Bluetooth Low Energy (BLE) y la consulta instantánea a servicios en la nube para el despliegue de fichas de verificación visual.
 * **Gestión de Datos y Trazabilidad:** Estructurar una base de datos relacional orientada a la gestión de expedientes digitales en donde vamos a utilizar el lenguaje SQL, garantizando la integridad de la información al vincular identificadores únicos de etiquetas NFC con perfiles estudiantiles, registros fotográficos y estados de movilidad (ingreso, salida, préstamo).
-* **Seguridad y Criptografía Aplicada:** Implementar protocolos de autenticación y escritura estructurada mediante firmas digitales (HMAC) en las páginas de memoria de las etiquetas **NTAG215**, previniendo la clonación de transpondedores y asegurando la validación exclusiva de vehículos autorizados por la institución.
+* **Seguridad:** Implementar protocolos de autenticación y escritura estructurada mediante firmas digitales (HMAC) en las páginas de memoria de las etiquetas **NTAG215**, previniendo la clonación de transpondedores y asegurando la validación exclusiva de vehículos autorizados por la institución.
 
 ---
 
 ## Justificación y/o Planteamiento del problema:
-La transición hacia modelos de movilidad sostenible ha impulsado un incremento masivo en el uso de Vehículos de Movilidad Personal (VMP) —principalmente bicicletas y monopatines eléctricos— por parte de la comunidad estudiantil de la Universidad Industrial de Santander (UIS). No obstante, este cambio en la dinámica de transporte no estuvo acompañado por la modernización de los esquemas de supervisión, lo que dejó al descubierto una vulnerabilidad crítica en la infraestructura del campus. En la actualidad, el control en los puntos de acceso depende de registros manuales obsoletos. Esta ineficiencia operativa genera cuellos de botella significativos durante las horas pico y convierte a las entradas en puntos propensos a la suplantación de identidad y al hurto recurrente de estos vehículos.
+La transición hacia modelos de movilidad sostenible ha impulsado un incremento masivo en el uso de Vehículos de Movilidad Personal (VMP) —principalmente bicicletas y monopatines eléctricos— BUSCAR DATOS INTERNACIONALES, DATOS NACIONALES, BUSCAR PREAMBULO A LA JUSTIFICACIÓN
+
+por parte de la comunidad estudiantil de la Universidad Industrial de Santander (UIS). No obstante, este cambio en la dinámica de transporte no estuvo acompañado por la modernización de los esquemas de supervisión, lo que dejó al descubierto una vulnerabilidad crítica en la infraestructura del campus. En la actualidad, el control en los puntos de acceso depende de registros manuales obsoletos. Esta ineficiencia operativa genera cuellos de botella significativos durante las horas pico y convierte a las entradas en puntos propensos a la suplantación de identidad y al hurto recurrente de estos vehículos.
 
 El problema fundamental va más allá de las demoras en las porterías; radica en la carencia de control institucional sobre la trazabilidad de los vehículos de movilidad personal. La universidad no cuenta con un sistema capaz de verificar en tiempo real si quien transporta una unidad es su legítimo propietario, ni de registrar con precisión los flujos de entrada, salida o préstamos autorizados entre usuarios. Los métodos tradicionales de vigilancia resultan ineficaces para prevenir el robo por falsificación de comprobantes de propiedad, mientras que la falta de métricas sobre la permanencia de los vehículos dificulta la planificación de espacios de parqueo y la toma de decisiones fundamentadas dentro del concepto de *Smart Campus*.
 
@@ -50,7 +52,7 @@ Finalmente, la propuesta resulta de alto interés institucional para la Universi
 4. **Fase 4: Implementación del Esquema de Seguridad Criptográfica**
    - Desarrollo del algoritmo de firma digital/HMAC y mapeo de la estructura de memoria en las páginas de usuario de la NTAG215.
    - Pruebas de resistencia a la clonación y validación de autenticidad en el hardware.
-5. **Fase 5: Integración, Pruebas de Campo y Documentación**
+5. **Fase 5: Integración Hardware, Software y Documentación**
    - Pruebas del sistema completo en entorno real (porterías del campus).
    - Evaluación del tiempo de respuesta y tolerancia a fallos de red.
    - Redacción de la memoria técnica y preparación de la sustentación final.
