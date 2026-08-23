@@ -1,12 +1,12 @@
 # Formulario de Registro de Proyecto de Grado - UIS
 
 ## Título del Proyecto
-**Desarrollo de un Prototipo de plataforma IoT para el Control de Acceso de Vehiculos de Movilidad personal en el campo UIS de Bucaramanga utiilizando Tecnología NFC y Arquitectura en la Nube**
+**Desarrollo de un Prototipo de plataforma IoT para el control de acceso de vehículos de movilidad personal en el campo UIS de Bucaramanga utilizando tecnología NFC y arquitectura en la nube**
 
 ---
 
 ## Objetivo General:
-Desarrollar un prototipo de plataforma IoT que integre hardware embebido, tecnología NFC, plataforma móvil y servicio en la nube para control de acceso y trazabilidad en tiempo real para Vehículos de Movilidad Personal (VMP) en el campus central UIS.
+Desarrollar un prototipo de plataforma móvil IoT que integre hardware embebido, tecnología NFC, plataforma móvil y servicio en la nube para control de acceso y trazabilidad en tiempo real para Vehículos de Movilidad Personal (VMP) en el campus central UIS.
 
 ---
 
@@ -17,7 +17,7 @@ Desarrollar un prototipo de plataforma IoT que integre hardware embebido, tecnol
 
 * Desarrollar el prototipo funcional de la plataforma IoT, incluyendo el módulo de hardware embebido con lectura NFC, el backend en la nube y la interfaz móvil, para materializar el control de acceso y el almacenamiento de los registros.
 
-* Validar el funcionamiento del prototipo de la plataforma IoT mediante pruebas de integración, latencia de comunicación y seguridad, evaluando su desempeño en un entorno controlado que simule el acceso de los VMP al campus UIS.
+* Validación de la integración de hardware y software mediante el diseño de un plan de pruebas evaluando su desempeño en un entorno controlado que simule el acceso de los VMP al campus UIS.
 
 ---
 
@@ -40,7 +40,8 @@ Finalmente, el desarrollo de este prototipo resulta de alto interés institucion
 
 ---
 
-## Actividades a Realizar !!!
+## Actividades a Realizar
+Teniendo en cuenta que planeamos hacer varios ciclos de análisis, diseño, desarrollo e implementación para poder corregir en cada ciclo cualquier falla posible, mejorar los sistemas desarrollados y poder llegar a un prototipo óptimo de nuestro proyecto, hemos elegido una metodología en espiral con el fin de hacer un control de riesgo pues en cada ciclo analizaremos y reduciremos los peligros antes de avanzar al siguiente nivel, permitiéndonos un desarrollo iterativo construir el software y redefiniendo el diseño paso a paso haciendo cambios flexibles, adaptándonos a nuevos requisitos posibles durante el proceso haciendo una revisión constante para asegurar el resultado. Finalmente identificamos cuatro fases guía con sus respectivas actividades para llevar a cabo el proyecto:
 1. **Fase 1: Análisis y Especificación de Requerimientos (Ciclo Inicial)**
    - Recolección de información: Levantamiento de los requerimientos funcionales y no funcionales actuales del control de acceso a VMP en el campus central de la UIS.
    - Especificación técnica: Definición de las características operativas, restricciones de hardware, conectividad y flujos de usuario (tanto para estudiantes como para el personal de vigilancia).
