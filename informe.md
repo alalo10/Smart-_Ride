@@ -11,7 +11,7 @@ Desarrollar un prototipo de plataforma móvil IoT, compuesto por una aplicación
 ---
 
 ## Objetivos Específicos:
-* Identificar (o Definir?) los requerimientos funcionales y no funcionales del sistema de control de acceso mediante la recolección de especificaciones técnicas para la identificación de VMP y usuarios en el campus UIS.
+* Definir los requerimientos funcionales y no funcionales del sistema de control de acceso mediante la recolección de especificaciones técnicas para la identificación de VMP y usuarios en el campus UIS.
 
 * Diseñar la arquitectura integral del sistema IoT y el modelo de base de datos, integrando la tecnología NFC de los teléfonos móviles y los servicios en la nube para garantizar la gestión centralizada y la trazabilidad histórica de los registros de entrada y salida de los VMP en el campus.
 
@@ -46,7 +46,7 @@ Teniendo en cuenta que planeamos hacer varios ciclos de análisis, diseño, desa
 2. **Fase 2: Diseño de la Arquitectura y Modelado del Sistema (Ciclo de Diseño)**
    - Diseño de la arquitectura integral: Elaboración de los diagramas de bloques y esquemas de comunicación entre el hardware de captura, los servicios en la nube y la plataforma móvil.
    - Modelado de datos y seguridad: Diseño de la estructura lógica de la base de datos relacional y definición de los protocolos de identificación segura (etiquetas NFC y esquemas de autenticación).
-3. ** Fase 3: Desarrollo e Integración de Componentes (Ciclo de Construcción)**
+3. **Fase 3: Desarrollo e Integración de Componentes (Ciclo de Construcción)**
    - Construcción del backend y nube: Desarrollo de la infraestructura de servicios en la nube (API RESTful) y despliegue de la base de datos para la gestión centralizada.
    - Desarrollo de la aplicación multiplataforma: Creación de las interfaces móviles con autenticación por roles, integrando el panel de control operativo para vigilancia, el panel de gestión personal para estudiantes y el panel administrativo.
 4. **Fase 4: Pruebas, Validación y Documentación (Ciclo de Evaluación)**
