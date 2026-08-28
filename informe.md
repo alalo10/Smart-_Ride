@@ -60,3 +60,7 @@ Teniendo en cuenta que planeamos hacer varios ciclos de análisis, diseño, desa
 Arquitectura en la Nube, Autenticación por Roles, Control de Acceso, Internet de las Cosas (IoT), Movilidad Sostenible, Near Field Communication (NFC), Prototipo Funcional, Smart Campus, Trazabilidad, Vehículos de Movilidad Personal (VMP).
 
 ## Referencias
+* Área Metropolitana de Bucaramanga. (2018). Estrategia de la bicicleta como medio de transporte para Bucaramanga y su Área Metropolitana. AMB. https://www.amb.gov.co/wp-content/uploads/Estrategia-de-la-Bicicleta-para-el-AMB-Publicada.pdf
+* Ríos, R., Taddia, A. P., Pardo, C. F., & Lleras, N. (2015). Ciclo-inclusión en América Latina y el Caribe: Guía de diseño para fomentar el uso de la bicicleta. Banco Interamericano de Desarrollo (BID). https://doi.org/10.18235/0000164
+* Secretaría Distrital de Movilidad. (2024, 3 de junio). Bogotá promueve la movilidad sostenible con más de 886.000 viajes diarios en bicicleta. Alcaldía Mayor de Bogotá. https://www.movilidadbogota.gov.co/noticias/bogota-promueve-la-movilidad-sostenible-con-mas-de-886000-viajes-diarios-en-bicicleta
+* Universidad Industrial de Santander. (2022, 22 de junio). Nos "montamos" al Día sin Carro y sin Moto… En la UIS promovemos el uso de la "bici". Comunicaciones UIS. https://comunicaciones.uis.edu.co/nos-montamos-al-dia-sin-carro-y-sin-moto-en-la-uis-promovemos-el-uso-de-la-bici/
