@@ -1,12 +1,12 @@
 # Formulario de Registro de Proyecto de Grado - UIS
 
 ## Título del Proyecto
-**Desarrollo de una plataforma móvil IoT para el control de acceso de vehículos de movilidad personal mediante tecnología NFC en el Smart Campus UIS**
+**Desarrollo de un prototipo funcional de una plataforma móvil IoT para el control de acceso de vehículos de movilidad personal mediante tecnología NFC en el Smart Campus UIS**
 
 ---
 
 ## Objetivo General:
-Desarrollar una plataforma móvil IoT, basado en tecnología NFC de teléfonos móviles, aplicativo y servicio en la nube Smart Campus UIS para control de acceso y trazabilidad en tiempo real para Vehículos de Movilidad Personal (VMP) en el campus central UIS.
+Desarrollar un prototipo funcional de una plataforma móvil IoT, basado en tecnología NFC de teléfonos móviles, aplicativo y servicio en la nube Smart Campus UIS para control de acceso y trazabilidad en tiempo real para Vehículos de Movilidad Personal (VMP) en el campus central UIS.
 
 ---
 
