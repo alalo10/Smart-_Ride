@@ -15,9 +15,10 @@ Desarrollar un prototipo funcional de una plataforma móvil IoT, basado en tecno
 
 * Diseñar la arquitectura integral del sistema IoT y el modelo de base de datos, integrando la tecnología NFC de los teléfonos móviles y los servicios en la nube para garantizar la gestión centralizada y la trazabilidad histórica de los registros de entrada y salida de los VMP en el campus.
 
-* Desarrollar la plataforma funcional IoT, incluyendo lectura del sticker NFC (NTAG 213) situado en cualquier parte del VMP, el backend en la nube y la interfaz móvil para materializar el control de acceso y el almacenamiento de los registros.
+* Desarrollar la plataforma funcional IoT, integrando la interfaz móvil para la lectura de etiquetas NFC (NTAG213), el despliegue del backend en la nube para el almacenamiento de registros y la construcción de un entorno web analítico para la gestión y visualización estadística de las métricas institucionales.
 
-* Validación de la integración de la plataforma mediante el diseño de un plan de pruebas evaluando su desempeño en un entorno controlado de Smart Campus que simule el acceso de los VMP al campus UIS.
+* Validar la integración y el desempeño de la plataforma en un nivel de madurez tecnológica TRL 4, mediante el uso de una maqueta funcional a escala y la ejecución de pruebas de estrés en el servidor, simulando escenarios controlados de acceso de VMP en el entorno del Smart Campus.
+
 
 ---
 
